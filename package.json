@@ -1,0 +1,55 @@
+{
+  "name": "mixpanel-browser-hook",
+  "version": "1.0.0",
+  "description": "A React hook wrapper for mixpanel-browser",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "keywords": [
+    "mixpanel",
+    "react",
+    "hook",
+    "analytics"
+  ],
+  "author": "Chris Schuld <cbschuld@gmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/mixpanel-browser": "^2.54.0",
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "jsdom": "^26.0.0",
+    "mixpanel-browser": "^2.62.0",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup": "^4.38.0",
+    "rollup-plugin-delete": "^3.0.1",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  },
+  "peerDependencies": {
+    "mixpanel-browser": "^2.62.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbschuld/mixpanel-browser-hook.git"
+  }
+}
