@@ -4,6 +4,9 @@
   "description": "A React hook wrapper for mixpanel-browser",
   "type": "module",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
