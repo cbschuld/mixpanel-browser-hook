@@ -53,3 +53,12 @@ Returns an object with the following methods:
 ## License
 
 This project is licensed under the MIT License.
+
+## Contact
+
+- **Email** - twitter handle @ gmail.com
+- **X** - @cbschuld
+
+## Contributing
+
+Yes, thank you! Please update the docs and tests and add your name to the package.json file.
