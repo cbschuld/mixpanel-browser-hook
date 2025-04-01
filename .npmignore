@@ -1,0 +1,9 @@
+ # .npmignore
+src/
+node_modules/
+.git/
+.vscode/
+tests/
+.github/
+.prettierrc
+vitest.config.ts
